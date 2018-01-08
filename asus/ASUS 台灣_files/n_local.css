@@ -1,0 +1,178 @@
+
+
+
+*, span{
+	font-family: "Segoe UI", "微軟正黑體", "Microsoft JhengHei", "Arial","新細明體", Helvetica, sans-serif;
+}
+#article-zone .storyboard h2 {
+	font-weight: 600;
+}
+.mdatext{
+	font-family:Arial, Helvetica, sans-serif !important;
+
+}
+.selectbox2 {
+	width: 560px;
+	margin-left: 76px !important;
+}
+#product-business-nav:after {
+	left: 290px;
+}
+#shop-sub-nav:after {
+	left: 395px;
+}
+#asus-api-header .aai-nav>li>a{
+	font-weight: bold;
+}
+
+#af-header .nav-bar .submenu-area .products-menu>.display-area .sub-products-list .right-column{
+	max-height: 535px;
+}
+
+@media (min-width: 960px) {
+	#overview-top-nav.poa{
+		top:61px;
+	}
+
+	#asus-api-header .aai-logo{
+		height: 23px;
+		top:50%;
+		margin-top: -11.5px;
+	}
+	
+	#asus-api-header .aai-logo > a{
+		margin: 0;
+	}
+
+	#asus-api-header .aai-subNav{
+		top:61px !important;
+	}
+
+	#asus-api-header .aai-nav > li {
+		height: 60px;
+		display: table;
+	}
+
+	#asus-api-header .aai-nav > li > a{
+		padding: 0px 5px;
+	}
+
+	#asus-api-header .aai-right-area{
+		top:50%;
+		margin-top: -10px;
+	}
+
+	#index-top-banner{
+		height: 680px;
+	}
+
+	#index-top-banner .banner-area{
+		height: 680px;
+	}
+
+	.promos .promos-inner{
+		max-width: 2000px;
+	}
+	.nav-tabs > li{
+		display: table;
+		margin: 0 16px;
+		height: 48px;
+	}
+
+	.nav-tabs > li:last-child{
+		margin-right: 0;
+	}
+
+	.nav-tabs > li > a{
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0;
+		margin: 0;
+	}
+
+	.nav-tabs > .hide{
+		display: none;
+	}
+
+	#liBuy a{
+		display: block;
+    line-height: 20px;
+    margin-top: 10px;
+   	padding: 1px 17px 6px;
+	}
+
+	.fixed #liBuy a {
+		margin-top: 10px;
+    padding: 1px 17px 6px;
+	}
+
+}
+
+@media (min-width: 719px) and (max-width: 959px){
+	
+	#main-product-nav .nav>li:hover,#mainmenu .nav>li.active,#main-product-nav .nav>li  {
+		padding: 10px 7px ;
+	}
+	#mainmenu .nav-collapse {
+		margin: 0 10px 0 10px;
+	}
+
+}
+
+
+#index-top-banner .mobile-banner{
+	display: none;
+}
+
+.promos .promos-item img{
+	display: none;
+}
+
+
+#asus-api-header .aai-sub-inner{
+	margin: 47px auto 40px;
+}
+
+@media (min-width: 719px) and (max-width: 959px){
+	.promos .promos-item{
+		-webkit-background-size: auto 100%;
+		     -o-background-size: auto 100%;
+		        background-size: auto 100%;
+	}
+}
+
+@media (max-width: 770px) {
+	.promos .promos-item {
+		margin-top: 1%;
+		width: 49.5%;
+	}
+
+	.promos .promos-item img{
+		display: none;
+	}
+
+	.promos .promos-item:first-child,
+	.promos .promos-item:first-child + .promos-item + .promos-item{
+		margin-right: 1%;
+	}
+
+	#index-top-banner.mobile-banner-area{
+		height: auto !important;
+	}
+
+	#index-top-banner.mobile-banner-area{
+
+	}
+
+	#index-top-banner.mobile-banner-area .banner-area{
+		height: auto !important;
+	}
+
+	#index-top-banner.mobile-banner-area .mobile-banner{
+		display: block;
+	}
+
+}
+
+
+
