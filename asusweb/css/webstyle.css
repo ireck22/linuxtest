@@ -1,0 +1,111 @@
+#logo{
+	width:107px;
+	height:23px;
+	float:left;
+	margin-left:60px;
+	margin-top:10px;
+				
+}
+.top{
+	width:100%;
+	height:60px;
+	float:left;
+}
+#top-1{
+	width:567px;
+	height:60px;
+	text-align:center;
+	float:left;
+}
+#top-2{
+	width:567px;
+	height:30px;
+	margin-top:10px;
+	margin-left:30px;
+				
+}
+#top-3{
+	width:350px;
+	height:30px;
+	margin-left:200px;
+	margin-top:5px;
+	
+	text-align:center;
+	float:left;			
+}
+.length{
+	margin-left:30px;
+}
+#search-box {
+  font-size: 13px;
+  width: 120px;
+  background: #E6E6E6 url('../picture/search.gif') no-repeat 3px 3px;
+  padding: 3px 3px 3px 22px;
+}
+#min{
+	width:100%;
+	height:486px;
+}
+.minpage{
+	width:100%;
+	height:470px;	
+}
+#min2{
+	
+	width:100%;
+	height:158px;	
+	margin-top:50px;
+}
+.min2-1{
+	width:440px;
+	height:158px;
+	text-align:center;
+	float:left;
+	margin-left:2px;
+	background-color:#DDDDDD;
+	
+}
+.in1{
+	width:250px;
+	height:80px;
+	margin-top:30px;
+	
+	float:left;
+}
+h1{
+	font-size:20px;
+}
+.in2page{
+	width:160px;
+	height:158px;
+	float:left;
+}
+.min2-2{
+	width:430px;
+	height:158px;
+	text-align:center;
+	float:left;
+	margin-left:1px;
+	background-color:#DDDDDD;
+	
+}
+#bottom{
+	width:100%;
+	height:485px;
+}
+#bottom-1{
+	width:671px;
+	height:482px;
+	background-image:url('../picture/carmera.jpg');
+	background-size:671px 480px;
+}
+
+
+
+
+
+
+
+
+
+
