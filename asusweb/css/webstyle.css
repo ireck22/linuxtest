@@ -93,14 +93,15 @@ h1{
 	width:100%;
 	height:485px;
   color:#FFFFFF;
-	display:flex;
-	justify-content:center;
+
+
 }
 #bottom-1{
 	width:671px;
 	height:482px;
 	background-image:url('../picture/carmera.jpg');
 	background-size:671px 480px;
+	float:left;
 }
 #bottom-2{
 
@@ -108,31 +109,54 @@ h1{
 	height:100px;
 	padding-top:400px;
 	padding-left:20px;
-	float:left;
+
 }
 #bottom-3{
 
         width:600px;
         height:240px;
 				margin-left:10px;
+				float:left;
 }
 #bottom-3-1{
 	width:300px;
   height:240px;
 	background-image:url('../picture/pic5.jpg');
 	background-size:300px 240px;
-
+	float:left;
 }
 .b3{
 	width:300px;
   height:60px;
 	padding-top:200px;
 }
-
 #bottom-3-2{
 	width:300px;
   height:240px;
-	background-image:url('../picture/camrea3.jpg');
+	background-image:url('../picture/ca3.jpg');
 	background-size:300px 240px;
+	float:left;
+}
+#bottom-4{
+
+        width:300px;
+        height:480px;
+				display: inline-flex;
+
+}
+
+#bottom-4-1{
+	width:300px;
+  height:240px;
+	background-image:url('../picture/c2.jpg');
+	background-size:300px 240px;
+
+}
+#bottom-4-2{
+	width:300px;
+  height:240px;
+	background-image:url('../picture/camera4.jpg');
+	background-size:300px 240px;
+
 
 }
