@@ -142,7 +142,7 @@ h1{
 #bottom-4{
 
         width:650px;
-        height:480px;
+        height:240px;
 				display: inline-flex;
 				margin-top: 2px;
 				margin-left: 10px;
@@ -169,4 +169,36 @@ h1{
 	height:408px;
 	background-color: #DDDDDD;
 	float:left;
+}
+.footer-1{
+		width:220px;
+		height:260px;
+		margin-left: 100px;
+    margin-top: 16px;
+		float:left;
+
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+ul li{
+
+			width: 200px;
+			height:20px;
+			font-size: 10px;
+			color: #888888;
+
+}
+#footer-2{
+	width:1153px;
+	height:30px;
+	margin-left: 100px;
+	margin-top: 112px;
+	float:left;
+
+}
+.footer-2{
+	margin-left: 502px;
 }
