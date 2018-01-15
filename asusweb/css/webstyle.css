@@ -64,11 +64,11 @@ body{
 	margin-right: auto;
 }
 .min2-1{
-	width:33%;
+	width:31%;
 	height:158px;
 	text-align:center;
 	float:left;
-	margin-left:2px;
+	margin-left:2%;
 	background-color:#DDDDDD;
 
 }
@@ -180,9 +180,9 @@ h1{
 	float:left;
 }
 .footer-1{
-		width:220px;
+		width:20%;
 		height:260px;
-		margin-left: 100px;
+		margin-left: 5%;
     margin-top: 16px;
 		float:left;
 
@@ -201,13 +201,18 @@ ul li{
 
 }
 #footer-2{
-	width:1153px;
-	height:30px;
-	margin-left: 100px;
+	width:150px;
+	height:20px;
+	margin-left: 5%;
 	margin-top: 112px;
 	float:left;
 
 }
 .footer-2{
-	margin-left: 502px;
+ 	width:530px;
+	height:20px;
+	margin-top: 110px;
+	margin-left: 40%;
+	float:left;
+
 }
