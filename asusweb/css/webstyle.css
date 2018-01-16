@@ -221,18 +221,22 @@ ul li{
 
 }
 #footer-2{
+		width:1056px;
+		height:20px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.f3{
 	width:150px;
 	height:20px;
-	margin-left: 12%;
-	margin-top: 6px;
 	float:left;
 
 }
 .footer-3{
  	width:530px;
 	height:20px;
+	margin-left: 631px;
 
-	margin-left: 35%;
-	float:left;
 
 }
