@@ -6,6 +6,9 @@ body{
 #tc1{
   width: 100%;
   height:60px;
+  background-color:#FFFFFF; 
+  position:fixed;
+  top:0px;
 }
 #tc2{
   width: 100%;

@@ -15,11 +15,13 @@
 
         　　//當高度小於100時，關閉區塊
         　　if($this_Top < 100){
-        　　　$('#top').stop().animate({top:"-65px"});
+        　　　$('#tc1').stop().animate({top:"0px"});
         　　　}
         　　　　if($this_Top > 100){
-        　　　　$('#top').stop().animate({top:"0px"});
-        　　　 }
+
+        　　　　$('#tc1').animate({top:"0px"});
+                //$('#tc1').fadeIn();
+              }
         　　}).scroll();
         　});
         });
