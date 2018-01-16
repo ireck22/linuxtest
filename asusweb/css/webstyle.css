@@ -77,9 +77,10 @@ h1{
 	font-size:20px;
 }
 .in2page{
-	max-width:40%;
+	width:40%;
 	height: 100%;
-	overflow: hidden;
+	right: 0;
+  left: auto;
 	float:left;
 }
 .min2-2{
