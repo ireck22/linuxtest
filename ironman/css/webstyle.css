@@ -3,7 +3,15 @@ body{
 	margin: 0px;
 
 }
-
+#tc1{
+  width: 100%;
+  height:60px;
+}
+#tc2{
+  width: 100%;
+  height:7px;
+  background-color: #AA0000;
+}
 
 #top{
   width:1181px;
@@ -14,6 +22,7 @@ body{
   margin-right: auto;
 
 }
+
 .top1{
       text-decoration:none;
       float:left;
@@ -21,6 +30,7 @@ body{
 #top2{
   width:600px;
   height:60px;
+  font-size:17px;
   float:left;
 
 }
@@ -31,15 +41,71 @@ ul{
 
 }
 ul li a{
-  text-decoration:none;
-  color:#AA0000;
-}
-ul li a:hover{
-  color:#FF3333;
-  -webkit-transition: 0.5s;
+    text-decoration:none;
+    color:#AA0000;
 }
 
+
+
 ul li a::after{
-  content: ____;
-  color:green;
+    content: "";
+    display: none;
+    width: 100%;
+    height: 5px;
+    background-color: #AA0000;
+    margin-top: 5px;
+
+}
+ul li a:hover::after{
+  display: block;
+
+}
+
+
+#min{
+		width:100%
+}
+#min div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+		-webkit-animation: round 25s linear infinite;
+    animation: round 25s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
 }
