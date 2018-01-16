@@ -1,0 +1,45 @@
+body{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+#top{
+  width:1181px;
+  height:60px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.top1{
+      text-decoration:none;
+      float:left;
+}
+#top2{
+  width:600px;
+  height:60px;
+  float:left;
+
+}
+ul{
+  list-style-type:none;
+  display:flex;
+  justify-content: space-between;
+
+}
+ul li a{
+  text-decoration:none;
+  color:#AA0000;
+}
+ul li a:hover{
+  color:#FF3333;
+  -webkit-transition: 0.5s;
+}
+
+ul li a::after{
+  content: ____;
+  color:green;
+}
