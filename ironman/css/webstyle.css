@@ -54,14 +54,13 @@ ul li a::after{
     content: "";
     display: none;
     width: 100%;
-    height: 5px;
+    height: 3px;
     background-color: #AA0000;
-    margin-top: 5px;
+    margin-top: 2px;
 
 }
 ul li a:hover::after{
   display: block;
-
 }
 
 
@@ -76,11 +75,51 @@ ul li a:hover::after{
 }
 #min2{
 	width: 1200px;
-	height: 524px;
+	height: 360px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top:80px;
+	padding-bottom: 80px;
 	display: flex;
 	justify-content: space-between;
+}
+.min2-1{
+	width:350px;
+	height: 364px;
+	text-align: center;
+}
+h2{
+	margin-top: 1.5em;
+}
+p{
+	margin-top: 1.5em;
+}
+
+.min2a a{
+	text-decoration:none;
+	color:#AA0000;
+	padding: 5px 50px;
+	border:1px #AA0000 solid;
+	border-radius: 10px;
+}
+.min2a a:hover{
+			background-color: #AA0000;
+		  color:#FFFFFF;
+
+	}
+
+#min3{
+	width: 100%;
+	height: 344px;
+	text-align: center;
+	background-color: #DDDDDD;
+}
+#min3-1{
+	width: 1200px;
+	height: 184px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
 }
 /*@keyframes round {
     4% {
