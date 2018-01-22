@@ -105,7 +105,7 @@ p{
 .min2a a:hover{
 			background-color: #AA0000;
 		  color:#FFFFFF;
-
+			transition: 0.5s;
 	}
 
 #min3{
@@ -115,12 +115,129 @@ p{
 	background-color: #DDDDDD;
 }
 #min3-1{
-	width: 1200px;
+	width: 1000px;
 	height: 184px;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#min3-1 a{
+	text-decoration:none;
+	color:#FFFFFF;
+	padding: 10px 50px;
+	background-color: #AA0000;
+	#border:1px #AA0000 solid;
 
 }
+#min3-1 a:hover{
+			background-color: #FFFFFF;
+		  color:#AA0000;
+			border:1px #AA0000 solid;
+			transition: 0.5s;
+	}
+#bottom{
+	width: 100%;
+	height:1250px;
+	display: flex;
+	justify-content: space-between;
+}
+#bottom-1{
+	width: 540px;
+	height:100%;
+	#padding: 18px 60px;
+	margin-top: 60px;
+	margin-left:90px;
+}
+.siimg{
+	width: 540px;
+}
+.b2{
+	width: 100%;
+	height:54px;
+}
+h5{
+	margin-top: -16px;
+}
+#b2{
+	width: 100%;
+	height:564px;
+	padding: 10px 10px;
+}
+#b3{
+	width: 100%;
+	height:564px;
+	padding: 10px 10px;
+}
+p{
+	margin-top: 2px;
+}
+.s2img{
+	width: 540px;
+}
+
+#bottom-2{
+	width: 540px;
+	height:100%;
+	#padding: 18px 60px;
+	margin-top: 60px;
+	margin-right: 90px;
+}
+.bottom22{
+	width:100%;
+	height:187px;
+	padding: 20px 20px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.s3img{
+	width:260px;
+	height: 187px;
+	#float:left;
+}
+.bottom3{
+	width: 270px;
+	height: 187px;
+	#float:left;
+}
+.font{
+	font-size: 13px;
+
+}
+.bottom3 p{
+	font-size: 17px;
+}
+
+.b3a{
+	width: 540px;
+	height: 30px;
+	text-align: center;
+
+}
+.b3a a{
+	text-decoration:none;
+	color:#FFFFFF;
+	padding: 10px 50px;
+	background-color: #AA0000;
+	#border:1px #AA0000 solid;
+
+}
+.b3a a:hover{
+			background-color: #FFFFFF;
+		  color:#AA0000;
+			border:1px #AA0000 solid;
+			transition: 0.5s;
+	}
+	#footer{
+		width: 100%;
+		height: 165px;
+		margin-top: 24px;
+		display: block;
+    background-image: url(http://hs03.dev3.hellosanta.tw/sites/default/files/styles/banner/public/03.jpg?itok=lDrZZ2qJ&c=3fd7ff9…);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /*@keyframes round {
     4% {
         opacity: 1;
