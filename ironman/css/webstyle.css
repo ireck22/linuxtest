@@ -10,7 +10,7 @@ body{
   position:fixed;
   top:0px;
 }
-#tc2{
+.tc2{
   width: 100%;
   height:7px;
   background-color: #AA0000;
@@ -231,13 +231,43 @@ p{
 		width: 100%;
 		height: 165px;
 		margin-top: 24px;
-		display: block;
     background-image: url(http://hs03.dev3.hellosanta.tw/sites/default/files/styles/banner/public/03.jpg?itok=lDrZZ2qJ&c=3fd7ff9…);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+#footer2{
+		width: 100%;
+		height:
+}
+#footer2{
+	width: 800px;
+	height: 125px;
+	text-align: center;
+	padding-top:25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer2 a{
+		text-decoration:none;
+		color:#b10104;
+		font-weight:bold;
+}
+#footer3{
+	width: 400px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer4{
+	width: 139px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
 /*@keyframes round {
     4% {
         opacity: 1;
