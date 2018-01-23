@@ -291,7 +291,7 @@ p{
 #footer2{
 	width: 800px;
 	height: 125px;
-	font-size: 17px;
+	font-size: 18px;
 	text-align: center;
 	padding-top:25px;
 	margin-left: auto;
@@ -311,17 +311,16 @@ p{
 #footer4{
 	width: 167px;
 	height: 40px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 14px auto;
 	display: flex;
 	justify-content: space-between;
 }
 #footer4 a {
     color:#FFFFFF;
 		background-color: #AA0000;
-		padding: 3px 6px;
-		border-radius:36px;
+		padding: 5px 9px;
+		border-radius:44px 47px;
+		font-size: 15px;
 }
 #footer4 a:hover{
 		color:#AA0000;
