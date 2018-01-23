@@ -275,15 +275,13 @@ p{
     background-repeat: no-repeat;
     background-position: center center;
 }
-#footer2{
-		width: 100%;
-		height:
-}
+
 #footer2{
 	width: 800px;
 	height: 125px;
+	font-size: 20px;
 	text-align: center;
-	padding-top:25px;
+	padding-top:17px;
 	margin-left: auto;
 	margin-right: auto;
 }
