@@ -17,7 +17,7 @@ body{
 }
 
 #top{
-  width:90%;
+  width:98%;
   height:60px;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,8 @@ body{
   font-size:17px;
 	float:left;
 	margin-top: 5px;
-	margin-right: 20px;
+  margin-right: 10px;
+
 }
 #topcolor{
 	width:100%;
@@ -231,6 +232,7 @@ p{
 .b3a{
 	width: 540px;
 	height: 30px;
+  margin-top: 350px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -296,27 +298,6 @@ p{
 	font-size: 17px;
 }
 
-.b3a{
-	width: 540px;
-	height: 30px;
-	text-align: center;
-	margin-top:35px;
-
-}
-.b3a a{
-	text-decoration:none;
-	color:#FFFFFF;
-	padding: 10px 50px;
-	background-color: #AA0000;
-	#border:1px #AA0000 solid;
-
-}
-.b3a a:hover{
-			background-color: #FFFFFF;
-		  color:#AA0000;
-			border:1px #AA0000 solid;
-			transition: 0.5s;
-	}
 #footer{
     width: 100%;
     height: 165px;
