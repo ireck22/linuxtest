@@ -258,7 +258,7 @@ p{
 }
 
 #bottom-2{
-	width: 96%;
+	width: 95%;
 	height:50%;
 	padding: 215px 0px;
 	#margin-top: 60px;
@@ -271,14 +271,15 @@ p{
 
 }
 .bottom22{
-	width:260px;
+	width:25%;
 	height:301px;
 	padding: 6px 0px;
-  margin-right: 40px;
+  margin-right: 8%;
   float: left;
+
 }
 .s3img{
-	width:260px;
+	width:280px;
 	height: 187px;
 
 }
@@ -302,6 +303,9 @@ p{
 .bottom3 p{
 	font-size: 17px;
 }
+
+
+
 
 #footer{
     width: 100%;
