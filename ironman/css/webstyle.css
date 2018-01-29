@@ -18,7 +18,7 @@ body{
 }
 
 #top{
-  width:95%;
+  width:1200px;
   height:60px;
   display: flex;
   justify-content: space-between;
@@ -180,7 +180,7 @@ p{
 }
 .b2{
 	width: 100%;
-	height:54px;
+	height:129px;
 	margin-top:25px;
 }
 .b2 a{
@@ -268,13 +268,13 @@ p{
 	width: 540px;
 	height: 30px;
 	text-align: center;
-	margin-top:35px;
+	margin-top:30px;
 
 }
 .b3a a{
 	text-decoration:none;
 	color:#FFFFFF;
-	padding: 10px 50px;
+	padding: 15px 50px;
 	background-color: #AA0000;
 	#border:1px #AA0000 solid;
 
