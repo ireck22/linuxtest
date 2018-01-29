@@ -158,23 +158,27 @@ p{
 
 	}
 #bottom{
-	width: 100%;
+	width: 1300px;
 	height:1272px;
 	display: flex;
-	justify-content: center;
+	#justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 42px;
+
 }
 #bottom-1{
-	width: 45%;
+	max-width: 540px;
 	height:100%;
-	padding: 60px 3%;
+	padding: 60px 29px;
+	margin-left: 10px;
 	#margin-top: 60px;
 
 }
 #bottom-1 h2{
 	margin: 0px;
 }
-.s1img{
+.ssimg{
 	width: 540px;
 	padding-top:16px;
 }
@@ -217,13 +221,13 @@ p{
 	margin-top: 2px;
 }
 .s2img{
-	width: 540px;
+	max-width: 540px;
 }
 
 #bottom-2{
-	width: 40%;
+	max-width: 540px;
 	height:100%;
-	padding: 60px 3%;
+	padding: 60px 92px;
 	#margin-top: 60px;
 
 }
@@ -237,7 +241,7 @@ p{
 	padding: 20px 0px;
 	margin-left: 0px;
 	display: inline-flex;
-	justify-content: space-between;
+	#justify-content: space-between;
 }
 .s3img{
 	width:260px;
