@@ -18,7 +18,7 @@ body{
 }
 
 #top{
-  width:91%;
+  width:98%;
   height:60px;
   display: flex;
   justify-content: space-between;
@@ -89,7 +89,7 @@ ul li a:hover::after{
 		height: 100%;
 }
 #min2{
-	width: 1141px;
+	width: 85%;
 	height: 360px;
 	margin-left: auto;
 	margin-right: auto;
@@ -161,13 +161,13 @@ p{
 	width: 100%;
 	height:1272px;
 	display: flex;
-	justify-content: center;
+	#justify-content: center;
 	margin-bottom: 42px;
 }
 #bottom-1{
 	width: 45%;
 	height:100%;
-	padding: 60px 3%;
+	padding: 60px 0%;
 	#margin-top: 60px;
 
 }
@@ -175,7 +175,7 @@ p{
 	margin: 0px;
 }
 .s1img{
-	width: 540px;
+	width: 100%;
 	padding-top:16px;
 }
 .b2{
@@ -197,7 +197,7 @@ h5{
 #b2{
 	width: 100%;
 	height:600px;
-	padding: 4px 20px;
+	padding: 4px 10px;
 }
 #b2 p{
 	font-size:17px;
@@ -217,14 +217,15 @@ p{
 	margin-top: 2px;
 }
 .s2img{
-	width: 540px;
+	width:100%;
 }
 
 #bottom-2{
 	width: 40%;
 	height:100%;
-	padding: 60px 3%;
-	#margin-top: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 117px;
 
 }
 #bottom-2 h2{
@@ -270,7 +271,7 @@ p{
 	width: 540px;
 	height: 30px;
 	text-align: center;
-	margin-top:40px;
+	margin-top:50px;
 
 }
 .b3a a{
