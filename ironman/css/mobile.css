@@ -176,7 +176,7 @@ p{
     margin: 0px;
   }
   .s1img{
-    max-width: 300px;
+    #max-width: 300px;
     width: 100%;
     padding-top:16px;
   }
@@ -224,7 +224,7 @@ p{
     margin-top: 2px;
   }
   .s2img{
-    max-width: 300px;
+    #max-width: 300px;
     width:100%;
   }
 
