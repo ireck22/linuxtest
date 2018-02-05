@@ -128,7 +128,7 @@ p{
 }
 #min3-1{
     width: 70%;
-    padding: 50px;
+    padding: 50px 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -168,14 +168,14 @@ p{
 }
 #bottom-1{
   max-width: 100%;
-  padding-left:23px;
+  padding-left:18px;
+  padding-right: 18px;
   #margin-left: 10px;
 }
   #bottom-1 h2{
     margin: 0px;
   }
   .s1img{
-    max-width: 400px;
     width: 100%;
     padding-top:16px;
   }
@@ -196,7 +196,7 @@ p{
     margin-top: -16px;
   }
   #b2{
-    width: 96%;
+    width: 100%;
     #height:400px;
 
 
@@ -207,7 +207,7 @@ p{
   }
 
   #b3{
-    width: 96%;
+    width: 100%;
     #height:400px;
     padding-top:40px;
     #float:left;
@@ -220,13 +220,12 @@ p{
     margin-top: 2px;
   }
   .s2img{
-    max-width: 400px;
     width:100%;
   }
 
   #bottom-2{
     max-width: 660px;
-    padding: 42px 20px;
+    padding: 42px 18px;
     #margin-top: 60px;
 
   }
@@ -314,7 +313,6 @@ p{
   }
   #footer3{
   	max-width: 400px;
-  	height: 20px;
   	margin-left: auto;
   	margin-right: auto;
   }
