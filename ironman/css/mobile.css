@@ -169,8 +169,11 @@ p{
 
 }
 #bottom-1{
-  max-width: 100%;
+  max-width: 660px;
   height:632px;
+  #padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
   #display: flex;
   #justify-content: space-between;
   #padding: 60px 29px;
@@ -204,7 +207,7 @@ p{
   #b2{
     width: 41%;
     height:400px;
-    padding: 4px 20px;
+    padding: 4px 30px;
     float:left;
   }
   #b2 p{
@@ -215,7 +218,7 @@ p{
   #b3{
     width: 41%;
     height:400px;
-    padding: 50px 20px;
+    padding: 50px 11px;
     margin-left: 0px;
     float:left;
   }
@@ -233,7 +236,7 @@ p{
 
   #bottom-2{
     max-width: 660px;
-    padding: 12px 20px;
+    padding: 12px 50px;
     #margin-top: 60px;
 
   }
