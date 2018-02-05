@@ -168,7 +168,7 @@ p{
 #bottom-1{
 	width: 45%;
 	height:100%;
-	padding: 60px 0%;
+	padding: 60px 30px;
 	#margin-top: 60px;
 
 }
@@ -222,11 +222,12 @@ p{
 }
 
 #bottom-2{
-	width: 40%;
+	width: 46%;
 	height:100%;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	padding-left: 117px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 #bottom-2 h2{

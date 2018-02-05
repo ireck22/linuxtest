@@ -196,11 +196,15 @@ p{
   h5{
     margin-top: -16px;
   }
+  #b23{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
   #b2{
-    width: 42%;
     height:400px;
-    padding:4px 4%;
-    float:left;
+    padding:4px 18px;
   }
   #b2 p{
     font-size:17px;
@@ -208,10 +212,9 @@ p{
   }
 
   #b3{
-    width: 42%;
     height:400px;
-    padding: 50px 4%;
-    float:left;
+    padding: 50px 18px;
+
   }
   #b3 p{
     font-size: 17px;
