@@ -15,7 +15,10 @@ body{
   height:7px;
   background-color: #AA0000;
 }
+#response_menu{
+    display: none;
 
+}
 #top{
   max-width: 1160px;
   width:100%;

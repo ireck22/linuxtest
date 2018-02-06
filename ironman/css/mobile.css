@@ -2,6 +2,10 @@ body{
   margin:0px;
   padding:0px;
 }
+body ul{
+  margin: 0px;
+  padding: 0px;
+}
 #header{
   width: 100%;
   height:73px;
@@ -15,6 +19,128 @@ body{
   height:7px;
   background-color: #AA0000;
 }
+#response_menu{
+    width: 35px;
+    height:25px;
+    display: block;
+
+    margin-top: 10px;
+
+}
+
+
+.button1{
+  background-color:#AA0000;
+  color: #AA0000;
+  display: inline-block;
+  margin-top: 1px;
+  width:30px;
+  height:2px;
+  #transform:rotate(-44deg);
+}
+.button2{
+  background-color: #AA0000;
+  color: #AA0000;
+  display: inline-block;
+  margin-top: 8px;
+  width:30px;
+  height:2px;
+
+}
+.button3{
+  background-color: #AA0000;
+  display: inline-block;
+  margin-top: 8px;
+  width:30px;
+  height:2px;
+}
+.hamburger-x .button1::after{
+    width:30px;
+    height:6px;
+    display:none;
+
+}
+.hamburger-x .button3::after{
+    width:30px;
+    height:6px;
+    display:none;
+
+}
+
+.hamburger-x .button1{
+           width:30px;
+           height:6px;
+           display:block;
+           background-color:transparent;
+           position:absolute;
+           transition: all .1s;
+  }
+  .hamburger-x .button1::before{
+           content:"";
+           width:30px;
+           height:6px;
+           display:block;
+           background-color: #AA0000;
+           position:absolute;
+           top:10px;
+           transform:rotate(45deg);
+           transition: top .1s,transform .1s .1s;
+       }
+  .hamburger-x .button1::after{
+           content:"";
+           width:30px;
+           height:6px;
+           display:block;
+           background-color: #AA0000;
+           position:absolute;
+           top:10px;
+           transform:rotate(-45deg);
+           transition:bottom .1s,transform .1s .1s;
+       }
+
+  .hamburger-x .button2{
+                  display: none;
+    }
+  .hamburger-x .button3{
+                    display: none;
+     }
+
+  .menu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.1s;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 100;
+    top: 71px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    }
+    .menu li{
+      float: none;
+
+    }
+    .menu li a{
+      transition: all 0.3s;
+      color:#ffffff;
+      display: block;
+      width:100%;
+      padding: 20px 0px;
+      font-size:17px;
+    }
+    .menu li a:hover{
+      color:#ffffff;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .hamburger-x .menu{
+      max-height: 500px
+    }
+
+
+
 
 #top{
   max-width:1160px;
@@ -35,6 +161,7 @@ body{
   width:652px;
   height:60px;
   font-size:17px;
+  display: block;
 	float:left;
 	margin-top: 5px;
   margin-right: 10px;
@@ -65,18 +192,18 @@ ul li a::after{
     display: none;
     width: 100%;
     height: 3px;
-		background-color: #AA0000;
+		background-color:;
     margin-top: 2px;
 
 }
 ul li a:hover{
 	color:#ef7c6b;
 }
-ul li a:hover::after{
+/*ul li a:hover::after{
 
 	display: block;
 
-}
+}*/
 
 #min{
 
