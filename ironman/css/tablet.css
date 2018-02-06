@@ -85,6 +85,9 @@ ul li a:hover::after{
 
     width:100%;
 		height:450px;
+    background-image: url("../picture/p1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .min-1{
 		max-width: 100%;
