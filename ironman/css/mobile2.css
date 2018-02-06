@@ -19,8 +19,8 @@ body{
     width: 35px;
     height:25px;
     display: block;
-    margin-right: 24px;
-    margin-top: 10px;
+    margin-right: 12px;
+    margin-top: 16px;
 
 }
 
@@ -50,22 +50,11 @@ body{
   width:30px;
   height:2px;
 }
-.hamburger-x .button1::after{
-    width:30px;
-    height:6px;
-    display:none;
 
-}
-.hamburger-x .button3::after{
-    width:30px;
-    height:6px;
-    display:none;
-
-}
 
 .hamburger-x .button1{
            width:30px;
-           height:6px;
+           height:3px;
            display:block;
            background-color:transparent;
            position:absolute;
@@ -74,24 +63,24 @@ body{
   .hamburger-x .button1::before{
            content:"";
            width:30px;
-           height:6px;
+           height:3px;
            display:block;
            background-color: #AA0000;
            position:absolute;
            top:10px;
-           right:9px;
+           right:14px;
            transform:rotate(45deg);
            transition: top .1s,transform .1s .1s;
        }
   .hamburger-x .button1::after{
            content:"";
            width:30px;
-           height:6px;
+           height:3px;
            display:block;
            background-color: #AA0000;
            position:absolute;
            top:10px;
-           right:9px;
+           right:14px;
            transform:rotate(-45deg);
            transition:bottom .1s,transform .1s .1s;
        }
@@ -151,6 +140,7 @@ body{
 .top1{
       text-decoration:none;
       float:left;
+      margin-left: 12px;
 }
 #top2{
   width:652px;
@@ -201,9 +191,11 @@ ul li a:hover{
 }*/
 
 #min{
-
     width:100%;
 		height:450px;
+    background-image: url("../picture/p1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .min-1{
   max-width: 100%;
@@ -425,6 +417,8 @@ p{
     font-size: 18px;
     text-align: center;
     padding-top:25px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
   }
