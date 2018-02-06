@@ -19,7 +19,7 @@ body{
     width: 35px;
     height:25px;
     display: block;
-
+    margin-right: 24px;
     margin-top: 10px;
 
 }
@@ -79,6 +79,7 @@ body{
            background-color: #AA0000;
            position:absolute;
            top:10px;
+           right:9px;
            transform:rotate(45deg);
            transition: top .1s,transform .1s .1s;
        }
@@ -90,6 +91,7 @@ body{
            background-color: #AA0000;
            position:absolute;
            top:10px;
+           right:9px;
            transform:rotate(-45deg);
            transition:bottom .1s,transform .1s .1s;
        }
@@ -154,7 +156,7 @@ body{
   width:652px;
   height:60px;
   font-size:17px;
-  display:none;
+  display:block;
   float:left;
 	margin-top: 5px;
   margin-right: 10px;
