@@ -57,10 +57,15 @@ body{
 #wrap2{
   width: 800px;
   padding: 0px;
+  margin: 0px;
   display: flex;
   list-style-type:none;
-  justify-content: space-between;
+  //justify-content: space-between;
 
+}
+#wrap2 li{
+  padding: 0px 20px;
+  line-height: 50px;
 }
 #wrap2 li a{
   color: #333;
@@ -68,7 +73,20 @@ body{
   font-size: 16px;
   text-decoration:none;
 }
+#wrap2 li b{
+  color: #fff;
 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  display: block;
+}
+#wrap2 li:hover{
+  background-color: #ffc82b;
+
+}
+#wrap2 li b:hover{
+  margin-top: -50px;
+}
 
 .Multiple-a{
   width:250px;
@@ -356,8 +374,60 @@ body{
 }
 #map{
     width: 100%;
-    display: flex;;
+    display: flex;
     margin-top: 91px;
+
+}
+.mapfixed{
+  position: relative;
+}
+#map2{
+  width: 324px;
+  //height: 300px;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 30px;
+  background-color:#66bbae;
+}
+#map2-1{
+    color:#fff;
+    line-height: 1;
+    font-size: 20px;
+    margin:25px 0px;
+    padding:0px 30px;
+}
+#map2-1 .colorwhite{
+    font-size: 44px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+#map2-1 .colorblack{
+    font-size: 44px;
+    color: #091630;
+    //display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+#map2-1 h2{
+  margin: 0px;
+  font-weight: normal;
+}
+#map2-2{
+  width:200px;
+  padding:0px 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+#mapwrap{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+
+}
+#mapwrap li a{
+    line-height: 2.5;
+    color: #091630;
+    text-decoration:none;
 }
 #footer{
   padding: 50px 0px;
